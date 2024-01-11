@@ -22,7 +22,7 @@ function Token({ tokenomics }) {
       <div className="section-header section-header--middle">
           <div className="section-header__content">
             <div className="section-header__titlebar">
-              <Simple subTitle="$APAD" title="Tokenomics" />
+              <Simple subTitle="Tokenomics" title="$APAD" />
             </div>
           </div>
         </div>

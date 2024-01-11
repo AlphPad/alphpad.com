@@ -29,7 +29,7 @@ function Benefits() {
                   <div className="benifit__item-content">
                     <h4>Standardized Launches</h4>
                     <p>
-                      Enjoy safe and standardized launches on our trusted platform, eliminating uncertainties around DApp security, timing, and refunds.
+                      Enjoy safe and standardized launches on our trusted platform, eliminating uncertainties around dApp security, timing, and refunds.
                     </p>
                   </div>
                 </div>
