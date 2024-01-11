@@ -57,7 +57,7 @@ function Header() {
                 </Link>
                 </div>
                 <div className="menu-area">
-                  <ul id="menu" className='menu'>
+                  <ul id="menu" className={menu ? 'menu active' : 'menu'}>
                     <li>
                       <Link href="/#body" scroll={false}>Home</Link>
                     </li>
@@ -77,6 +77,11 @@ function Header() {
                       <Link href="https://docs.alphpad.com" target="_blank">Docs</Link>
                     </li>
                   </ul>
+                  <div id="icon" onClick={() => toggleMenu()} className={menu ? 'header-bar d-lg-none active' : 'header-bar d-lg-none'}>
+                    <span />
+                    <span />
+                    <span />
+                  </div>
                 </div>
               </div>
             </div>
