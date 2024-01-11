@@ -1,0 +1,45 @@
+.benifit {
+    @extend %of-hidden;
+
+    &__item {
+        @extend %text-center;
+
+        &-thumb {
+            @extend %mb-15;
+        }
+
+        &-content {
+            padding-inline: 1rem;
+
+            h4 {
+                @extend %mb-10;
+            }
+
+            p {
+                @extend %mb-0;
+            }
+        }
+    }
+
+    &__icon {
+        @include box(90px);
+        @include add-prefix(transition, $transition);
+        border: 4px solid rgba($theme-color, $alpha: .40);
+        padding: 10px;
+        display: inline-grid;
+        place-items: center;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        background-color: $body-color;
+        color: $white-color;
+
+        svg {
+            color: inherit;
+        }
+
+        &:hover {
+            background-color: $theme-color;
+            color: $body-color;
+        }
+    }
+}
