@@ -34,15 +34,15 @@ export default function App({ Component, pageProps }) {
         <meta charSet="UTF-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>AlphaPad The Premier Launchpad on Alephium - Elevating Projects to New Heights!</title>
+        <title>AlphPad The Premier Launchpad on Alephium - Elevating Projects to New Heights!</title>
         <meta
           name="title"
-          content="AlphaPad The Premier Launchpad on Alephium - Elevating Projects to New Heights!"
+          content="AlphPad The Premier Launchpad on Alephium - Elevating Projects to New Heights!"
         />
-        <meta name="description" content="AlphaPad The Premier Launchpad on Alephium - Elevating Projects to New Heights!" />
-        <meta name="keywords" content="AlphaPad, Alephium, ico ino, ido, blockchain,launchpad,ido launchpad, crypto launchpad, alephium" />
+        <meta name="description" content="AlphPad The Premier Launchpad on Alephium - Elevating Projects to New Heights!" />
+        <meta name="keywords" content="AlphPad, Alephium, ico ino, ido, blockchain,launchpad,ido launchpad, crypto launchpad, alephium" />
         <meta name="author" content="alphpad" />
-        <meta property="og:image" content="../images/favicon.png" />
+        <meta property="og:image" content="../images/Alphpad-03.jpg" />
 
       </Head>
 
