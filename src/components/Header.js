@@ -82,6 +82,8 @@ function Header() {
                     <span />
                     <span />
                   </div>
+                  
+                  <Link className="default-btn default-btn--small" href="https://app.alphpad.com/">Enter dApp</Link>
                 </div>
               </div>
             </div>

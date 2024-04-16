@@ -9,13 +9,11 @@
     @extend %of-hidden;
     @include font-size(16px);
     @include add-prefix(border-radius, 5px);
-    @include add-prefix(transform, skew(-5deg));
     text-decoration: none;
     font-family: $title-font;
     color: $black-color;
     padding-inline: 1.25rem;
     line-height: 40px;
-    transform-origin: right;
     transition: $transition;
     background: $theme-color;
     border: 1px solid transparent;
@@ -56,7 +54,6 @@
 
     &:hover {
         color: $theme-color;
-        transform: translateY(-3px);
         background: transparent;
         border-color: $theme-color;
         box-shadow: 0 0 10px rgba($theme-color, $alpha: .40);
